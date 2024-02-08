@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.projectmaincont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.projectimage {
+  width: 200px;
+  height: 200px;
+}
+.calendercont {
+  display: flex;
+}
+
+.button {
+  color: blue;
+  font-size: 30px;
+}

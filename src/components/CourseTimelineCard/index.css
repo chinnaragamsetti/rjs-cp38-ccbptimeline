@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.coursemaincont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.maincont {
+  display: flex;
+  justify-content: space-between;
+}
+.coursehead {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.timecont {
+  display: flex;
+}
+.clock {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.duration {
+  font-size: 10px;
+  color: lightslategray;
+}
+.description {
+  font-size: 20px;
+  color: lightgrey;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eachcourselist {
+  background-color: lightgrey;
+  color: black;
+  font-weight: 100;
+}

@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subhead {
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+}
+.mainheading {
+  font-size: 20px;
+  color: black;
+}
