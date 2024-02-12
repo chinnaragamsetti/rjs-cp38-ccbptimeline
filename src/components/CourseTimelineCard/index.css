@@ -6,15 +6,19 @@
 }
 .maincont {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 .coursehead {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: black;
 }
 .timecont {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .clock {
   width: 10px;
@@ -26,16 +30,22 @@
   color: lightslategray;
 }
 .description {
-  font-size: 20px;
-  color: lightgrey;
+  font-size: 10px;
+  color: lightslategray;
 }
 .list {
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
 }
 
 .eachcourselist {
   background-color: lightgrey;
   color: black;
-  font-weight: 100;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }

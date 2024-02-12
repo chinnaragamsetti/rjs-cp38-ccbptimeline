@@ -1,24 +1,17 @@
 // Write your code here
-import {FaClock} from 'react-icons/fa'
+import {AiFillClockCircle} from 'react-icons/ai'
+import './index.css'
 
 const CourseTimeLineCard = props => {
   const {eachDetails} = props
-  const {
-    id,
-    categoryId,
-    title,
-    courseTitle,
-    description,
-    duration,
-    tagsList,
-  } = eachDetails
+  const {courseTitle, description, duration, tagsList} = eachDetails
 
   return (
     <div className="coursemaincont">
       <div className="maincont">
         <h1 className="coursehead">{courseTitle}</h1>
         <div className="timecont">
-          <FaClock className="clock" />
+          <AiFillClockCircle className="clock" />
           <p className="duration">{duration}</p>
         </div>
       </div>

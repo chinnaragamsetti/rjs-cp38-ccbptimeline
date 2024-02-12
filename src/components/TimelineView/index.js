@@ -10,8 +10,8 @@ const TimeLineView = props => {
 
   return (
     <div className="maincontainer">
-      <h1 className="mainheading">My Journey</h1>
-      <p className="subhead">CCBP 4.O</p>
+      <h1 className="mainheading">MY JOURNEY OF CCBP 4.O</h1>
+
       <Chrono mode="VERTICAL_ALTERNATING" items={timelineItemsList}>
         {timelineItemsList.map(each =>
           each.categoryId === 'COURSE' ? (

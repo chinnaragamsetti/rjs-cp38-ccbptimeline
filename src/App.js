@@ -1,5 +1,4 @@
 import TimelineView from './components/TimelineView'
-
 import './App.css'
 
 const timelineItemsList = [
